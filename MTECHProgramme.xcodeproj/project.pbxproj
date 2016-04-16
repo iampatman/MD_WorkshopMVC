@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A51584E1CC1EE7A005F6240 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51584A1CC1EE7A005F6240 /* DetailViewController.swift */; };
+		2A51584F1CC1EE7A005F6240 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51584B1CC1EE7A005F6240 /* MasterViewController.swift */; };
+		2A5158501CC1EE7A005F6240 /* Module.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51584C1CC1EE7A005F6240 /* Module.swift */; };
+		2A5158511CC1EE7A005F6240 /* ModulesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A51584D1CC1EE7A005F6240 /* ModulesModel.swift */; };
+		2A5158531CC1EEA1005F6240 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5158521CC1EEA1005F6240 /* ViewController.swift */; };
+		2A5158551CC1EEBA005F6240 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A5158541CC1EEBA005F6240 /* MessageUI.framework */; };
 		2AB1F9D41CC0C69500332C13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB1F9D31CC0C69500332C13 /* AppDelegate.swift */; };
 		2AB1F9D61CC0C69500332C13 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB1F9D51CC0C69500332C13 /* FirstViewController.swift */; };
 		2AB1F9D81CC0C69500332C13 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB1F9D71CC0C69500332C13 /* SecondViewController.swift */; };
@@ -15,6 +21,9 @@
 		2AB1F9E01CC0C69500332C13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB1F9DE1CC0C69500332C13 /* LaunchScreen.storyboard */; };
 		2AB1F9EB1CC0C69500332C13 /* MTECHProgrammeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB1F9EA1CC0C69500332C13 /* MTECHProgrammeTests.swift */; };
 		2AB1F9F61CC0C69500332C13 /* MTECHProgrammeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB1F9F51CC0C69500332C13 /* MTECHProgrammeUITests.swift */; };
+		2AB1FA0C1CC0C73400332C13 /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB1FA091CC0C73400332C13 /* LoginModel.swift */; };
+		2AB1FA0D1CC0C73400332C13 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB1FA0A1CC0C73400332C13 /* LoginViewController.swift */; };
+		2AB1FA0E1CC0C73400332C13 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2AB1FA0B1CC0C73400332C13 /* LoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A51584A1CC1EE7A005F6240 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		2A51584B1CC1EE7A005F6240 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		2A51584C1CC1EE7A005F6240 /* Module.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Module.swift; sourceTree = "<group>"; };
+		2A51584D1CC1EE7A005F6240 /* ModulesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModulesModel.swift; sourceTree = "<group>"; };
+		2A5158521CC1EEA1005F6240 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A5158541CC1EEBA005F6240 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		2AB1F9D01CC0C69500332C13 /* MTECHProgramme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MTECHProgramme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB1F9D31CC0C69500332C13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2AB1F9D51CC0C69500332C13 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +64,9 @@
 		2AB1F9F11CC0C69500332C13 /* MTECHProgrammeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTECHProgrammeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AB1F9F51CC0C69500332C13 /* MTECHProgrammeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MTECHProgrammeUITests.swift; sourceTree = "<group>"; };
 		2AB1F9F71CC0C69500332C13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB1FA091CC0C73400332C13 /* LoginModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		2AB1FA0A1CC0C73400332C13 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		2AB1FA0B1CC0C73400332C13 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5158551CC1EEBA005F6240 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +98,7 @@
 		2AB1F9C71CC0C69400332C13 = {
 			isa = PBXGroup;
 			children = (
+				2A5158541CC1EEBA005F6240 /* MessageUI.framework */,
 				2AB1F9D21CC0C69500332C13 /* MTECHProgramme */,
 				2AB1F9E91CC0C69500332C13 /* MTECHProgrammeTests */,
 				2AB1F9F41CC0C69500332C13 /* MTECHProgrammeUITests */,
@@ -99,6 +119,14 @@
 		2AB1F9D21CC0C69500332C13 /* MTECHProgramme */ = {
 			isa = PBXGroup;
 			children = (
+				2A5158521CC1EEA1005F6240 /* ViewController.swift */,
+				2A51584A1CC1EE7A005F6240 /* DetailViewController.swift */,
+				2A51584B1CC1EE7A005F6240 /* MasterViewController.swift */,
+				2A51584C1CC1EE7A005F6240 /* Module.swift */,
+				2A51584D1CC1EE7A005F6240 /* ModulesModel.swift */,
+				2AB1FA091CC0C73400332C13 /* LoginModel.swift */,
+				2AB1FA0A1CC0C73400332C13 /* LoginViewController.swift */,
+				2AB1FA0B1CC0C73400332C13 /* LoginViewController.xib */,
 				2AB1F9D31CC0C69500332C13 /* AppDelegate.swift */,
 				2AB1F9D51CC0C69500332C13 /* FirstViewController.swift */,
 				2AB1F9D71CC0C69500332C13 /* SecondViewController.swift */,
@@ -235,6 +263,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2AB1FA0E1CC0C73400332C13 /* LoginViewController.xib in Resources */,
 				2AB1F9E01CC0C69500332C13 /* LaunchScreen.storyboard in Resources */,
 				2AB1F9DD1CC0C69500332C13 /* Assets.xcassets in Resources */,
 				2AB1F9DB1CC0C69500332C13 /* Main.storyboard in Resources */,
@@ -262,8 +291,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5158531CC1EEA1005F6240 /* ViewController.swift in Sources */,
 				2AB1F9D81CC0C69500332C13 /* SecondViewController.swift in Sources */,
+				2AB1FA0C1CC0C73400332C13 /* LoginModel.swift in Sources */,
 				2AB1F9D41CC0C69500332C13 /* AppDelegate.swift in Sources */,
+				2A51584E1CC1EE7A005F6240 /* DetailViewController.swift in Sources */,
+				2AB1FA0D1CC0C73400332C13 /* LoginViewController.swift in Sources */,
+				2A5158511CC1EE7A005F6240 /* ModulesModel.swift in Sources */,
+				2A5158501CC1EE7A005F6240 /* Module.swift in Sources */,
+				2A51584F1CC1EE7A005F6240 /* MasterViewController.swift in Sources */,
 				2AB1F9D61CC0C69500332C13 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,10 +442,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MTECHProgramme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sg.edu.nus.iss.wlad.MTECHProgramme;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.edu.nus.iss.trung.MTECHProgramme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -417,10 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = MTECHProgramme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = sg.edu.nus.iss.wlad.MTECHProgramme;
+				PRODUCT_BUNDLE_IDENTIFIER = sg.edu.nus.iss.trung.MTECHProgramme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -489,6 +531,7 @@
 				2AB1F9FC1CC0C69500332C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AB1F9FD1CC0C69500332C13 /* Build configuration list for PBXNativeTarget "MTECHProgrammeTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +540,7 @@
 				2AB1F9FF1CC0C69500332C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2AB1FA001CC0C69500332C13 /* Build configuration list for PBXNativeTarget "MTECHProgrammeUITests" */ = {
 			isa = XCConfigurationList;
@@ -505,6 +549,7 @@
 				2AB1FA021CC0C69500332C13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
